@@ -17,6 +17,9 @@ const sprites = new PIXI.ParticleContainer(10000, {
 
 
 
+
+
+
 app.stage.addChild(sprites);
 // Büyük daireyi oluşturacak küçük daireler için parametreler
 let centerX = app.screen.width / 2;
